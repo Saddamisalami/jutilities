@@ -9,8 +9,11 @@ package de.jonaswismar.utilities;
  * @author jonas
  */
 public class JScriptUtils {
-    
-    public static boolean equals(final Object object1, final Object object2) {
+
+    public JScriptUtils() {
+    }
+
+    public boolean equals(final Object object1, final Object object2) {
         return object1.equals(object2);
     }
 }

@@ -9,5 +9,5 @@ package de.jonaswismar.utilities;
  * @author jonas
  */
 public class JBooleanUtils {
-    
+
 }

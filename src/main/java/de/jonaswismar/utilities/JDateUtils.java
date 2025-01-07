@@ -15,6 +15,11 @@ import java.util.Date;
  */
 public class JDateUtils {
 
+    public static LocalDateTime convertDateToLocalDate(final Date date) {
+        return date.toInstant().atZone(ZoneId.systemDefault()).toLocalDateTime();
+
+    }
+
     public static Date convertLocalDateToDate(final LocalDate date) {
         return java.sql.Date.valueOf(date);
 
